@@ -58,7 +58,7 @@ module.exports = configure(function (/* ctx */) {
 
       // rebuildCache: true, // rebuilds Vite/linter/etc cache on startup
 
-      publicPath: '/upload-1/dist/spa',
+      publicPath: 'https://okelvincosta.github.io/upload-1/dist/spa',
       // analyze: true,
       // env: {},
       // rawDefine: {}
