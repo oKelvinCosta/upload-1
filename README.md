@@ -27,8 +27,7 @@ See [Configuring quasar.config.js](https://v2.quasar.dev/quasar-cli-vite/quasar-
 Passo a passo de como dar deploy de aplicações Quasar no github pages no modo vueRouterMode history.
 Processo que mantém os arquivos de desenvolvimento juntos mas mantém a lógica se for separar.
 
-Quando for dar build
-quasar build
+
 
 This command will build your project in SPA mode and output your production ready bundle to a newly created folder /dist/spa
 
@@ -39,5 +38,8 @@ PublicPath '/prodemge/dist/spa'
 Utilize o caminho de onde está o index.html do build
 
 DistDir: 'dist/spa'
+
+Quando for dar build
+quasar build
 
 Palavras chaves: vue rota history quasar hospedar publicar
