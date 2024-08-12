@@ -51,7 +51,7 @@ module.exports = configure(function (/* ctx */) {
         node: 'node20'
       },
 
-      vueRouterMode: 'hash', // available values: 'hash', 'history'
+      vueRouterMode: 'history', // available values: 'hash', 'history'
       // vueRouterBase,
       // vueDevtools,
       // vueOptionsAPI: false,
@@ -66,7 +66,7 @@ module.exports = configure(function (/* ctx */) {
       // minify: false,
       // polyfillModulePreload: true,
 
-      // distDir: 'dist/spa',
+      distDir: 'dist/spa',
 
       // extendViteConf (viteConf) {},
       // viteVuePluginOptions: {},

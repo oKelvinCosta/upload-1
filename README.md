@@ -32,7 +32,7 @@ Processo que mantém os arquivos de desenvolvimento juntos mas mantém a mesma l
 No arquivo .gitignore
 Excluir linha que contém /dist
 
-
+2
 No arquivo quasar.config.js
 
 Add no build:
@@ -40,9 +40,9 @@ PublicPath 'https://okelvincosta.github.io/upload-1/dist/spa'
 Utilize o caminho de onde está o index.html do build
 
 distDir: 'dist/spa'
-precisa disso?
+precisa disso? ACHO QUE NAO
 
-
+3
 Quando for dar build
 quasar build
 This command will build your project in SPA mode and output your production ready bundle to a newly created folder /dist/spa
