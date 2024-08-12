@@ -52,13 +52,15 @@ module.exports = configure(function (/* ctx */) {
       },
 
       vueRouterMode: 'history', // available values: 'hash', 'history'
+      publicPath: 'https://okelvincosta.github.io/upload-1/dist/spa',
+      distDir: 'dist/spa',
       // vueRouterBase,
       // vueDevtools,
       // vueOptionsAPI: false,
 
       // rebuildCache: true, // rebuilds Vite/linter/etc cache on startup
 
-      publicPath: 'https://okelvincosta.github.io/upload-1/dist/spa',
+     
       // analyze: true,
       // env: {},
       // rawDefine: {}
@@ -66,7 +68,7 @@ module.exports = configure(function (/* ctx */) {
       // minify: false,
       // polyfillModulePreload: true,
 
-      distDir: 'dist/spa',
+      
 
       // extendViteConf (viteConf) {},
       // viteVuePluginOptions: {},
